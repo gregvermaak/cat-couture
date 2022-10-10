@@ -1,0 +1,13 @@
+.container {
+  display: grid;
+  place-items: center;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: 1fr 8rem 1fr;
+  gap: 1rem;
+  place-items: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
